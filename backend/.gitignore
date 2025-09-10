@@ -1,0 +1,13 @@
+.env
+node_modules
+.DS_Store
+npm-debug.log
+.env
+yarn-error.log
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
