@@ -1,6 +1,5 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-// can you let me know what is going on here???
 </script>
 
 <template>
