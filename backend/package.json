@@ -1,8 +1,15 @@
 {
   "dependencies": {
-    "aws-sdk": "^2.1692.0",
+    "@aws-sdk/client-dynamodb": "^3.891.0",
+    "@aws-sdk/client-s3": "^3.892.0",
+    "@aws-sdk/lib-dynamodb": "^3.891.0",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
-    "multer": "^2.0.2"
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
   }
 }
