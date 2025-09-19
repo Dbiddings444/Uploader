@@ -77,11 +77,6 @@ app.post('/upload', upload.single('image'), async (req, res) => {
   }
 });
 
-// AWS_ACCESS_KEY_ID=AKIAT5SXCFYZLQ2QAMX4
-// AWS_SECRET_ACCESS_KEY=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
-// AWS_REGION=us-east-2
-// S3_BUCKET=269691792946bucket
-// PORT=3000
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
